@@ -66,6 +66,9 @@
     },
     "vyzo": {
       "permission": "push"
+    },
+    "new external contributor from bloxico": {
+      "permission": "push"
     }
   }
 }
