@@ -1,1 +1,26 @@
-{}
+{
+  "BigLep": {
+    "role": "admin"
+  },
+  "coryschwartz": {
+    "role": "admin"
+  },
+  "galargh": {
+    "role": "admin"
+  },
+  "hacdias": {
+    "role": "member"
+  },
+  "mxinden": {
+    "role": "member"
+  },
+  "nonsense": {
+    "role": "admin"
+  },
+  "protocollabsit": {
+    "role": "admin"
+  },
+  "raulk": {
+    "role": "admin"
+  }
+}

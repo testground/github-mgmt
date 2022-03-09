@@ -1,1 +1,30 @@
-{}
+{
+  "admins": {
+    "coryschwartz": {
+      "role": "maintainer"
+    },
+    "nonsense": {
+      "role": "maintainer"
+    },
+    "protocollabsit": {
+      "role": "maintainer"
+    },
+    "raulk": {
+      "role": "maintainer"
+    }
+  },
+  "maintainers": {
+    "coryschwartz": {
+      "role": "maintainer"
+    },
+    "mxinden": {
+      "role": "member"
+    },
+    "nonsense": {
+      "role": "maintainer"
+    },
+    "raulk": {
+      "role": "maintainer"
+    }
+  }
+}

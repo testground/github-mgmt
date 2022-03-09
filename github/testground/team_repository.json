@@ -1,1 +1,18 @@
-{}
+{
+  "admins": {
+    "infra": {
+      "permission": "admin"
+    },
+    "testground": {
+      "permission": "admin"
+    }
+  },
+  "maintainers": {
+    "docs": {
+      "permission": "maintain"
+    },
+    "testground": {
+      "permission": "pull"
+    }
+  }
+}

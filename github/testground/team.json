@@ -1,1 +1,10 @@
-{}
+{
+  "admins": {
+    "id": "3785059",
+    "parent_team_id": null
+  },
+  "maintainers": {
+    "id": "3723476",
+    "parent_team_id": null
+  }
+}

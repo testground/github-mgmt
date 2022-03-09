@@ -1,1 +1,71 @@
-{}
+{
+  "infra": {
+    "Stebalien": {
+      "permission": "push"
+    }
+  },
+  "plan-templates": {
+    "coryschwartz": {
+      "permission": "admin"
+    }
+  },
+  "sdk-go": {
+    "Stebalien": {
+      "permission": "push"
+    }
+  },
+  "sdk-js": {
+    "hacdias": {
+      "permission": "admin"
+    }
+  },
+  "sync-service": {
+    "hacdias": {
+      "permission": "admin"
+    },
+    "testgroundbot": {
+      "permission": "pull"
+    }
+  },
+  "testground": {
+    "Stebalien": {
+      "permission": "push"
+    },
+    "achingbrain": {
+      "permission": "push"
+    },
+    "aschmahmann": {
+      "permission": "push"
+    },
+    "coryschwartz": {
+      "permission": "admin"
+    },
+    "daviddias": {
+      "permission": "push"
+    },
+    "dirkmc": {
+      "permission": "push"
+    },
+    "gmasgras": {
+      "permission": "push"
+    },
+    "jacobheun": {
+      "permission": "push"
+    },
+    "lanzafame": {
+      "permission": "push"
+    },
+    "petar": {
+      "permission": "push"
+    },
+    "raulk": {
+      "permission": "admin"
+    },
+    "testgroundbot": {
+      "permission": "pull"
+    },
+    "vyzo": {
+      "permission": "push"
+    }
+  }
+}
