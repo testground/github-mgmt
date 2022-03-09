@@ -8,6 +8,6 @@
     "parent_team_id": null
   },
   "bloxico": {
-    "privacy": "closed"
+    "parent_team_id": null
   }
 }
