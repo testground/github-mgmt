@@ -14,5 +14,34 @@
     "testground": {
       "permission": "pull"
     }
+  },
+  "bloxico": {
+    "docs": {
+      "permission": "maintain"
+    },
+    "infra": {
+      "permission": "maintain"
+    },
+    "plan-templates": {
+      "permission": "maintain"
+    },
+    "pm": {
+      "permission": "maintain"
+    },
+    "sdk-go": {
+      "permission": "maintain"
+    },
+    "sdk-js": {
+      "permission": "maintain"
+    },
+    "sdk-rust": {
+      "permission": "maintain"
+    },
+    "sync-service": {
+      "permission": "maintain"
+    },
+    "testground": {
+      "permission": "maintain"
+    }
   }
 }
