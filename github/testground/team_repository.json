@@ -1,6 +1,27 @@
 {
   "admins": {
+    "docs": {
+      "permission": "admin"
+    },
     "infra": {
+      "permission": "admin"
+    },
+    "plan-templates": {
+      "permission": "admin"
+    },
+    "pm": {
+      "permission": "admin"
+    },
+    "sdk-go": {
+      "permission": "admin"
+    },
+    "sdk-js": {
+      "permission": "admin"
+    },
+    "sdk-rust": {
+      "permission": "admin"
+    },
+    "sync-service": {
       "permission": "admin"
     },
     "testground": {
@@ -11,8 +32,29 @@
     "docs": {
       "permission": "maintain"
     },
+    "infra": {
+      "permission": "maintain"
+    },
+    "plan-templates": {
+      "permission": "maintain"
+    },
+    "pm": {
+      "permission": "maintain"
+    },
+    "sdk-go": {
+      "permission": "maintain"
+    },
+    "sdk-js": {
+      "permission": "maintain"
+    },
+    "sdk-rust": {
+      "permission": "maintain"
+    },
+    "sync-service": {
+      "permission": "maintain"
+    },
     "testground": {
-      "permission": "pull"
+      "permission": "maintain"
     }
   },
   "bloxico": {
