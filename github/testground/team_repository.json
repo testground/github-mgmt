@@ -28,7 +28,7 @@
       "permission": "admin"
     }
   },
-  "maintainers": {
+  "bloxico": {
     "docs": {
       "permission": "maintain"
     },
@@ -57,7 +57,7 @@
       "permission": "maintain"
     }
   },
-  "bloxico": {
+  "maintainers": {
     "docs": {
       "permission": "maintain"
     },

@@ -13,6 +13,17 @@
       "role": "maintainer"
     }
   },
+  "bloxico": {
+    "AbominableSnowman730": {
+      "role": "member"
+    },
+    "brdji": {
+      "role": "maintainer"
+    },
+    "dektech": {
+      "role": "member"
+    }
+  },
   "maintainers": {
     "coryschwartz": {
       "role": "maintainer"
@@ -24,11 +35,6 @@
       "role": "maintainer"
     },
     "raulk": {
-      "role": "maintainer"
-    }
-  },
-  "bloxico": {
-    "brdji": {
       "role": "maintainer"
     }
   }

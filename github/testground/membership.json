@@ -1,18 +1,30 @@
 {
+  "AbominableSnowman730": {
+    "role": "member"
+  },
   "BigLep": {
     "role": "admin"
+  },
+  "KatarinaKeti": {
+    "role": "member"
+  },
+  "brdji": {
+    "role": "member"
   },
   "coryschwartz": {
     "role": "admin"
   },
-  "galargh": {
-    "role": "admin"
+  "dektech": {
+    "role": "member"
   },
-  "laurentsenta": {
+  "galargh": {
     "role": "admin"
   },
   "hacdias": {
     "role": "member"
+  },
+  "laurentsenta": {
+    "role": "admin"
   },
   "mxinden": {
     "role": "member"
@@ -25,20 +37,5 @@
   },
   "raulk": {
     "role": "admin"
-  },
-  "brdji": {
-    "role": "member"
-  },
-  "dektech": {
-    "role": "member"
-  },
-  "DimitrijeDragasevic": {
-    "role": "member"
-  },
-  "AbominableSnowman730": {
-    "role": "member"
-  },
-  "KatarinaKeti": {
-    "role": "member"
   }
 }
