@@ -3,11 +3,12 @@
     "id": "3785059",
     "parent_team_id": null
   },
+  "bloxico": {
+    "id": "5779472",
+    "parent_team_id": null
+  },
   "maintainers": {
     "id": "3723476",
     "parent_team_id": null
-  },
-  "bloxico": {
-    "privacy": "closed"
   }
 }
