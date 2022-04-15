@@ -2,11 +2,13 @@
   "docs": {},
   "github-mgmt": {},
   "infra": {},
+  "pl-infra-testground": {},
   "plan-templates": {},
   "pm": {},
   "sdk-go": {},
   "sdk-js": {},
   "sdk-rust": {},
   "sync-service": {},
-  "testground": {}
+  "testground": {},
+  "testground-github-action": {}
 }
