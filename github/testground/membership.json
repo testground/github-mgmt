@@ -5,6 +5,9 @@
   "BigLep": {
     "role": "admin"
   },
+  "DimitrijeDragasevic": {
+    "role": "member"
+  },
   "KatarinaKeti": {
     "role": "member"
   },
@@ -12,9 +15,6 @@
     "role": "member"
   },
   "brdji": {
-    "role": "member"
-  },
-  "DimitrijeDragasevic": {
     "role": "member"
   },
   "coryschwartz": {
