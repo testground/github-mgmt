@@ -28,6 +28,9 @@
     }
   },
   "testground": {
+    "web3-bot": {
+      "permission": "push"
+    },
     "Stebalien": {
       "permission": "push"
     },
