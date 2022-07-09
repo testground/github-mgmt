@@ -206,8 +206,11 @@ teams:
         - mxinden
     privacy: closed
   w3dt-stewards:
+    create_default_maintainer: false
     members:
-      member:
+      maintainer:
         - BigLep
         - galargh
         - laurentsenta
+      member: []
+    privacy: secret
