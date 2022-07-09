@@ -32,6 +32,13 @@ repositories:
   github-mgmt:
     branch_protection:
       master: {}
+    files:
+      CODEOWNERS:
+        content: >
+          *       @galargh
+    teams:
+      maintain:
+        - w3dt-stewards
     visibility: public
   infra:
     collaborators:
