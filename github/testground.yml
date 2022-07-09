@@ -198,3 +198,9 @@ teams:
       member:
         - mxinden
     privacy: closed
+  w3dt-stewards:
+    members:
+      member:
+        - BigLep
+        - galargh
+        - laurentsenta
