@@ -1,0 +1,216 @@
+# yaml-language-server: $schema=.schema.json
+
+members:
+  admin:
+    - BigLep
+    - coryschwartz
+    - galargh
+    - laurentsenta
+    - nonsense
+    - protocollabsit
+    - raulk
+  member:
+    - AbominableSnowman730
+    - DimitrijeDragasevic
+    - Kale98
+    - KatarinaKeti
+    - StefanMiletich
+    - brdji
+    - dektech
+    - hacdias
+    - mxinden
+repositories:
+  docs:
+    description: Content for docs.testground.ai
+    teams:
+      admin:
+        - admins
+      maintain:
+        - bloxico
+        - maintainers
+    visibility: public
+  github-mgmt:
+    branch_protection:
+      master: {}
+    files:
+      CODEOWNERS:
+        content: >
+          *       @galargh
+    teams:
+      maintain:
+        - w3dt-stewards
+    visibility: public
+  infra:
+    collaborators:
+      push:
+        - Stebalien
+    description: Testground infrastructure - playbooks and scripts for setting up a
+      Kubernetes cluster for Testground
+    teams:
+      admin:
+        - admins
+      maintain:
+        - bloxico
+        - maintainers
+    topics:
+      - flannel
+      - kops
+      - kubernetes
+      - weave
+    visibility: public
+  learning-example:
+    collaborators:
+      admin:
+        - brdji
+    description: An example project intended to help newcomers familiarize
+      themselves with the Testground tool
+    visibility: public
+  learning-example-tg:
+    collaborators:
+      admin:
+        - brdji
+    description: Testground project with test plans and examples for the learning project
+    visibility: public
+  pl-infra-testground:
+    visibility: private
+  plan-templates:
+    collaborators:
+      admin:
+        - coryschwartz
+    teams:
+      admin:
+        - admins
+      maintain:
+        - bloxico
+        - maintainers
+    visibility: public
+  pm:
+    description: Project management of Testground
+    teams:
+      admin:
+        - admins
+      maintain:
+        - bloxico
+        - maintainers
+    visibility: public
+  sdk-go:
+    collaborators:
+      push:
+        - Stebalien
+    description: "Testground: SDK for developing test plans in Go"
+    teams:
+      admin:
+        - admins
+      maintain:
+        - bloxico
+        - maintainers
+    visibility: public
+  sdk-js:
+    collaborators:
+      admin:
+        - hacdias
+    teams:
+      admin:
+        - admins
+      maintain:
+        - bloxico
+        - maintainers
+    visibility: public
+  sdk-rust:
+    teams:
+      admin:
+        - admins
+      maintain:
+        - bloxico
+        - maintainers
+    visibility: public
+  sync-service:
+    collaborators:
+      admin:
+        - hacdias
+      pull:
+        - testgroundbot
+    teams:
+      admin:
+        - admins
+      maintain:
+        - bloxico
+        - maintainers
+    visibility: public
+  testground:
+    branch_protection:
+      master: {}
+    collaborators:
+      admin:
+        - coryschwartz
+        - raulk
+      pull:
+        - testgroundbot
+      push:
+        - Stebalien
+        - achingbrain
+        - aschmahmann
+        - daviddias
+        - dirkmc
+        - gmasgras
+        - jacobheun
+        - lanzafame
+        - petar
+        - vyzo
+    description: 🧪 A platform for testing, benchmarking, and simulating distributed
+      and p2p systems at scale.
+    teams:
+      admin:
+        - admins
+      maintain:
+        - bloxico
+        - maintainers
+    topics:
+      - continuous-integration
+      - distributed-systems
+      - p2p
+      - testing
+    visibility: public
+  testground-github-action:
+    visibility: public
+teams:
+  admins:
+    description: testground admins
+    members:
+      maintainer:
+        - coryschwartz
+        - nonsense
+        - protocollabsit
+        - raulk
+    privacy: secret
+  bloxico:
+    members:
+      maintainer:
+        - brdji
+      member:
+        - AbominableSnowman730
+        - DimitrijeDragasevic
+        - Kale98
+        - KatarinaKeti
+        - StefanMiletich
+        - dektech
+    privacy: closed
+  maintainers:
+    description: Testground maintainers
+    members:
+      maintainer:
+        - coryschwartz
+        - nonsense
+        - raulk
+      member:
+        - mxinden
+    privacy: closed
+  w3dt-stewards:
+    create_default_maintainer: false
+    members:
+      maintainer:
+        - BigLep
+        - galargh
+        - laurentsenta
+      member: []
+    privacy: secret
