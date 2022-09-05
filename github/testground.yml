@@ -23,6 +23,7 @@ members:
     - mxinden
 repositories:
   docs:
+    default_branch: master
     description: Content for docs.testground.ai
     teams:
       admin:
@@ -34,6 +35,7 @@ repositories:
   github-mgmt:
     branch_protection:
       master: {}
+    default_branch: master
     files:
       CODEOWNERS:
         content: >
@@ -46,6 +48,7 @@ repositories:
     collaborators:
       push:
         - Stebalien
+    default_branch: master
     description: Testground infrastructure - playbooks and scripts for setting up a
       Kubernetes cluster for Testground
     teams:
@@ -64,21 +67,30 @@ repositories:
     collaborators:
       admin:
         - brdji
+    default_branch: master
     description: An example project intended to help newcomers familiarize
       themselves with the Testground tool
     visibility: public
   learning-example-tg:
+    branch_protection:
+      master: {}
     collaborators:
       admin:
         - brdji
+      push:
+        - StefanGajic
+        - bokimilinkovic
+    default_branch: master
     description: Testground project with test plans and examples for the learning project
     visibility: public
   pl-infra-testground:
+    default_branch: master
     visibility: private
   plan-templates:
     collaborators:
       admin:
         - coryschwartz
+    default_branch: master
     teams:
       admin:
         - admins
@@ -87,6 +99,7 @@ repositories:
         - maintainers
     visibility: public
   pm:
+    default_branch: master
     description: Project management of Testground
     teams:
       admin:
@@ -99,6 +112,7 @@ repositories:
     collaborators:
       push:
         - Stebalien
+    default_branch: master
     description: "Testground: SDK for developing test plans in Go"
     teams:
       admin:
@@ -111,6 +125,7 @@ repositories:
     collaborators:
       admin:
         - hacdias
+    default_branch: master
     teams:
       admin:
         - admins
@@ -119,6 +134,7 @@ repositories:
         - maintainers
     visibility: public
   sdk-rust:
+    default_branch: master
     teams:
       admin:
         - admins
@@ -132,6 +148,7 @@ repositories:
         - hacdias
       pull:
         - testgroundbot
+    default_branch: master
     teams:
       admin:
         - admins
@@ -159,6 +176,7 @@ repositories:
         - lanzafame
         - petar
         - vyzo
+    default_branch: master
     description: 🧪 A platform for testing, benchmarking, and simulating distributed
       and p2p systems at scale.
     teams:
@@ -174,6 +192,7 @@ repositories:
       - testing
     visibility: public
   testground-github-action:
+    default_branch: master
     visibility: public
 teams:
   admins:
