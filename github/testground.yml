@@ -215,6 +215,8 @@ teams:
         - KatarinaKeti
         - StefanMiletich
         - dektech
+        - StefanGajic
+        - bokimilinkovic
     privacy: closed
   maintainers:
     description: Testground maintainers
