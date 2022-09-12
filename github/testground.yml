@@ -42,7 +42,7 @@ repositories:
         content: |
           # The ipdx team is responsible for GitHub Management maintenance
           * @testground/ipdx
-          
+
           # The github-mgmt stewards team is responsible for triaging/reviewing configuration change requests
           # The ipdx team is added here temporarily to witness use patterns in github-mgmt
           /github/testground.yml @testground/github-mgmt-stewards @testground/ipdx
@@ -238,9 +238,9 @@ teams:
       #  - be familiar with GitHub Management
       #  - be ready to triage/review org configuration change request in github-mgmt
       maintainer:
+        - BigLep
         - galargh
         - laurentsenta
-        - BigLep
     privacy: closed
   ipdx:
     create_default_maintainer: false
