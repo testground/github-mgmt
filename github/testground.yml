@@ -11,16 +11,16 @@ members:
     - raulk
   member:
     - AbominableSnowman730
-    - LudiSistemas
-    - Kale98
-    - KatarinaKeti
-    - StefanMiletich
+    - bokimilinkovic
     - brdji
     - dektech
-    - bokimilinkovic
-    - StefanGajic
     - hacdias
+    - Kale98
+    - KatarinaKeti
+    - LudiSistemas
     - mxinden
+    - StefanGajic
+    - StefanMiletich
 repositories:
   docs:
     default_branch: master
@@ -72,14 +72,6 @@ repositories:
       - kubernetes
       - weave
     visibility: public
-  learning-example:
-    collaborators:
-      admin:
-        - brdji
-    default_branch: master
-    description: An example project intended to help newcomers familiarize
-      themselves with the Testground tool
-    visibility: public
   learning-example-tg:
     branch_protection:
       master: {}
@@ -87,10 +79,18 @@ repositories:
       admin:
         - brdji
       push:
-        - StefanGajic
         - bokimilinkovic
+        - StefanGajic
     default_branch: master
     description: Testground project with test plans and examples for the learning project
+    visibility: public
+  learning-example:
+    collaborators:
+      admin:
+        - brdji
+    default_branch: master
+    description: An example project intended to help newcomers familiarize
+      themselves with the Testground tool
     visibility: public
   pl-infra-testground:
     default_branch: master
@@ -165,6 +165,9 @@ repositories:
         - bloxico
         - maintainers
     visibility: public
+  testground-github-action:
+    default_branch: master
+    visibility: public
   testground:
     branch_protection:
       master: {}
@@ -175,7 +178,6 @@ repositories:
       pull:
         - testgroundbot
       push:
-        - Stebalien
         - achingbrain
         - aschmahmann
         - daviddias
@@ -184,6 +186,7 @@ repositories:
         - jacobheun
         - lanzafame
         - petar
+        - Stebalien
         - vyzo
     default_branch: master
     description: 🧪 A platform for testing, benchmarking, and simulating distributed
@@ -199,9 +202,6 @@ repositories:
       - distributed-systems
       - p2p
       - testing
-    visibility: public
-  testground-github-action:
-    default_branch: master
     visibility: public
 teams:
   admins:
@@ -219,11 +219,13 @@ teams:
         - brdji
       member:
         - AbominableSnowman730
-        - LudiSistemas
+        - bokimilinkovic
+        - dektech
         - Kale98
         - KatarinaKeti
+        - LudiSistemas
+        - StefanGajic
         - StefanMiletich
-        - dektech
     privacy: closed
   github-mgmt stewards:
     # NOTE: created to capture users with push+ access to github-mgmt repository
@@ -265,5 +267,4 @@ teams:
         - BigLep
         - galargh
         - laurentsenta
-      member: []
     privacy: secret
