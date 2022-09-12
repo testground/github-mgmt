@@ -267,4 +267,4 @@ teams:
         - BigLep
         - galargh
         - laurentsenta
-    privacy: secret
+    privacy: closed
