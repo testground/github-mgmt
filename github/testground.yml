@@ -203,6 +203,13 @@ repositories:
       - p2p
       - testing
     visibility: public
+  tg-cypress-test:
+    collaborators:
+      admin:
+        - brdji
+    default_branch: main
+    description: "Project where we attempt to connect cypress and Testground. "
+    visibility: public
 teams:
   admins:
     description: testground admins
