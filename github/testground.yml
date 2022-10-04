@@ -21,6 +21,7 @@ members:
     - mxinden
     - StefanGajic
     - StefanMiletich
+    - tinytb
 repositories:
   docs:
     default_branch: master
@@ -259,6 +260,7 @@ teams:
       maintainer:
         - galargh
         - laurentsenta
+        - tinytb
     parent_team_id: w3dt-stewards
     privacy: closed
   maintainers:
