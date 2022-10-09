@@ -57,6 +57,8 @@ repositories:
       - ipdx
     visibility: public
   infra:
+    branch_protection:
+      master: {}
     collaborators:
       push:
         - Stebalien
@@ -280,4 +282,6 @@ teams:
         - BigLep
         - galargh
         - laurentsenta
+      member:
+        - tinytb
     privacy: closed
