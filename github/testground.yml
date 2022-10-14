@@ -19,6 +19,7 @@ members:
     - KatarinaKeti
     - LudiSistemas
     - mxinden
+    - p-shahi
     - StefanGajic
     - StefanMiletich
     - tinytb
@@ -283,5 +284,6 @@ teams:
         - galargh
         - laurentsenta
       member:
+        - p-shahi
         - tinytb
     privacy: closed
