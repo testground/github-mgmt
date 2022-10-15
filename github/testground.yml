@@ -275,6 +275,7 @@ teams:
         - raulk
       member:
         - mxinden
+        - p-shahi
     privacy: closed
   w3dt-stewards:
     create_default_maintainer: false
