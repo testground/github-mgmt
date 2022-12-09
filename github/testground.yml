@@ -74,6 +74,8 @@ repositories:
       maintain:
         - bloxico
         - maintainers
+      push:
+        - celestia
     topics:
       - flannel
       - kops
