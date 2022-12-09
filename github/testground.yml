@@ -31,7 +31,6 @@ repositories:
       admin:
         - admins
       maintain:
-        - bloxico
         - maintainers
     visibility: public
   github-mgmt:
@@ -70,7 +69,6 @@ repositories:
       admin:
         - admins
       maintain:
-        - bloxico
         - maintainers
     topics:
       - flannel
@@ -110,7 +108,6 @@ repositories:
       admin:
         - admins
       maintain:
-        - bloxico
         - maintainers
     visibility: public
   pm:
@@ -120,7 +117,6 @@ repositories:
       admin:
         - admins
       maintain:
-        - bloxico
         - maintainers
     visibility: public
   sdk-go:
@@ -133,7 +129,6 @@ repositories:
       admin:
         - admins
       maintain:
-        - bloxico
         - maintainers
     visibility: public
   sdk-js:
@@ -145,7 +140,6 @@ repositories:
       admin:
         - admins
       maintain:
-        - bloxico
         - maintainers
     visibility: public
   sdk-rust:
@@ -154,7 +148,6 @@ repositories:
       admin:
         - admins
       maintain:
-        - bloxico
         - maintainers
     visibility: public
   sync-service:
@@ -168,7 +161,6 @@ repositories:
       admin:
         - admins
       maintain:
-        - bloxico
         - maintainers
     visibility: public
   testground-github-action:
@@ -203,7 +195,6 @@ repositories:
       admin:
         - admins
       maintain:
-        - bloxico
         - maintainers
     topics:
       - continuous-integration
@@ -228,20 +219,6 @@ teams:
         - protocollabsit
         - raulk
     privacy: secret
-  bloxico:
-    members:
-      maintainer:
-        - brdji
-      member:
-        - AbominableSnowman730
-        - bokimilinkovic
-        - dektech
-        - Kale98
-        - KatarinaKeti
-        - LudiSistemas
-        - StefanGajic
-        - StefanMiletich
-    privacy: closed
   github-mgmt stewards:
     # NOTE: created to capture users with push+ access to github-mgmt repository
     #  using a team instead of direct collaborators because we want to reference it in the CODEOWNERS file
