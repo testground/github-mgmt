@@ -247,8 +247,9 @@ teams:
   celestia:
     description: https://celestia.space/
     members:
-      - Bidon15
-      - sysrex
+      member:
+        - Bidon15
+        - sysrex
     privacy: closed
   github-mgmt stewards:
     # NOTE: created to capture users with push+ access to github-mgmt repository
