@@ -11,6 +11,7 @@ members:
     - raulk
   member:
     - AbominableSnowman730
+    - Bidon15
     - bokimilinkovic
     - brdji
     - dektech
@@ -22,6 +23,7 @@ members:
     - p-shahi
     - StefanGajic
     - StefanMiletich
+    - sysrex
     - tinytb
 repositories:
   docs:
@@ -72,6 +74,8 @@ repositories:
       maintain:
         - bloxico
         - maintainers
+      push:
+        - celestia
     topics:
       - flannel
       - kops
@@ -205,6 +209,8 @@ repositories:
       maintain:
         - bloxico
         - maintainers
+      triage:
+        - celestia
     topics:
       - continuous-integration
       - distributed-systems
@@ -241,6 +247,13 @@ teams:
         - LudiSistemas
         - StefanGajic
         - StefanMiletich
+    privacy: closed
+  celestia:
+    description: https://github.com/celestiaorg
+    members:
+      member:
+        - Bidon15
+        - sysrex
     privacy: closed
   github-mgmt stewards:
     # NOTE: created to capture users with push+ access to github-mgmt repository
