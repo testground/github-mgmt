@@ -249,7 +249,7 @@ teams:
         - StefanMiletich
     privacy: closed
   celestia:
-    description: https://celestia.space/
+    description: https://github.com/celestiaorg
     members:
       member:
         - Bidon15
