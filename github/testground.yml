@@ -11,6 +11,7 @@ members:
     - raulk
   member:
     - AbominableSnowman730
+    - Bidon15
     - bokimilinkovic
     - brdji
     - dektech
@@ -22,6 +23,7 @@ members:
     - p-shahi
     - StefanGajic
     - StefanMiletich
+    - sysrex
     - tinytb
 repositories:
   docs:
@@ -70,6 +72,8 @@ repositories:
         - admins
       maintain:
         - maintainers
+      push:
+        - celestia
     topics:
       - flannel
       - kops
@@ -196,6 +200,8 @@ repositories:
         - admins
       maintain:
         - maintainers
+      triage:
+        - celestia
     topics:
       - continuous-integration
       - distributed-systems
@@ -219,6 +225,13 @@ teams:
         - protocollabsit
         - raulk
     privacy: secret
+  celestia:
+    description: https://github.com/celestiaorg
+    members:
+      member:
+        - Bidon15
+        - sysrex
+    privacy: closed
   github-mgmt stewards:
     # NOTE: created to capture users with push+ access to github-mgmt repository
     #  using a team instead of direct collaborators because we want to reference it in the CODEOWNERS file
@@ -253,6 +266,7 @@ teams:
       member:
         - mxinden
         - p-shahi
+        - tinytb
     privacy: closed
   w3dt-stewards:
     create_default_maintainer: false
