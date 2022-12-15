@@ -209,6 +209,8 @@ repositories:
       maintain:
         - bloxico
         - maintainers
+      triage:
+        - celestia
     topics:
       - continuous-integration
       - distributed-systems
