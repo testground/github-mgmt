@@ -33,7 +33,6 @@ repositories:
       admin:
         - admins
       maintain:
-        - bloxico
         - maintainers
     visibility: public
   github-mgmt:
@@ -72,7 +71,6 @@ repositories:
       admin:
         - admins
       maintain:
-        - bloxico
         - maintainers
       push:
         - celestia
@@ -114,7 +112,6 @@ repositories:
       admin:
         - admins
       maintain:
-        - bloxico
         - maintainers
     visibility: public
   pm:
@@ -124,7 +121,6 @@ repositories:
       admin:
         - admins
       maintain:
-        - bloxico
         - maintainers
     visibility: public
   sdk-go:
@@ -137,7 +133,6 @@ repositories:
       admin:
         - admins
       maintain:
-        - bloxico
         - maintainers
     visibility: public
   sdk-js:
@@ -149,7 +144,6 @@ repositories:
       admin:
         - admins
       maintain:
-        - bloxico
         - maintainers
     visibility: public
   sdk-rust:
@@ -158,7 +152,6 @@ repositories:
       admin:
         - admins
       maintain:
-        - bloxico
         - maintainers
     visibility: public
   sync-service:
@@ -172,7 +165,6 @@ repositories:
       admin:
         - admins
       maintain:
-        - bloxico
         - maintainers
     visibility: public
   testground-github-action:
@@ -207,7 +199,6 @@ repositories:
       admin:
         - admins
       maintain:
-        - bloxico
         - maintainers
       triage:
         - celestia
@@ -234,20 +225,6 @@ teams:
         - protocollabsit
         - raulk
     privacy: secret
-  bloxico:
-    members:
-      maintainer:
-        - brdji
-      member:
-        - AbominableSnowman730
-        - bokimilinkovic
-        - dektech
-        - Kale98
-        - KatarinaKeti
-        - LudiSistemas
-        - StefanGajic
-        - StefanMiletich
-    privacy: closed
   celestia:
     description: https://github.com/celestiaorg
     members:
