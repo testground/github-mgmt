@@ -2,12 +2,12 @@
 
 members:
   admin:
+    - andyschwab-admin
     - BigLep
     - coryschwartz
     - galargh
     - laurentsenta
     - nonsense
-    - protocollabsit
     - raulk
   member:
     - AbominableSnowman730
@@ -222,7 +222,6 @@ teams:
       maintainer:
         - coryschwartz
         - nonsense
-        - protocollabsit
         - raulk
     privacy: secret
   celestia:
