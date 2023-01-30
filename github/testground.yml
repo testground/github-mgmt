@@ -27,6 +27,7 @@ members:
     - tinytb
 repositories:
   docs:
+    archived: false
     default_branch: master
     description: Content for docs.testground.ai
     teams:
@@ -37,6 +38,7 @@ repositories:
     visibility: public
   github-mgmt:
     # WARN: push+ access here should be treated exactly as cautiosly as org admin role
+    archived: false
     branch_protection:
       master: {}
     default_branch: master
@@ -59,6 +61,7 @@ repositories:
       - ipdx
     visibility: public
   infra:
+    archived: false
     branch_protection:
       master: {}
     collaborators:
@@ -81,6 +84,7 @@ repositories:
       - weave
     visibility: public
   learning-example-tg:
+    archived: false
     branch_protection:
       master: {}
     collaborators:
@@ -93,6 +97,7 @@ repositories:
     description: Testground project with test plans and examples for the learning project
     visibility: public
   learning-example:
+    archived: false
     branch_protection:
       master: {}
     collaborators:
@@ -103,9 +108,11 @@ repositories:
       themselves with the Testground tool
     visibility: public
   pl-infra-testground:
+    archived: false
     default_branch: master
     visibility: private
   plan-templates:
+    archived: false
     branch_protection:
       master: {}
     collaborators:
@@ -119,6 +126,7 @@ repositories:
         - maintainers
     visibility: public
   pm:
+    archived: false
     branch_protection:
       master: {}
     default_branch: master
@@ -130,6 +138,7 @@ repositories:
         - maintainers
     visibility: public
   sdk-go:
+    archived: false
     branch_protection:
       master: {}
     collaborators:
@@ -144,6 +153,7 @@ repositories:
         - maintainers
     visibility: public
   sdk-js:
+    archived: false
     branch_protection:
       master: {}
     collaborators:
@@ -157,6 +167,7 @@ repositories:
         - maintainers
     visibility: public
   sdk-rust:
+    archived: false
     branch_protection:
       master: {}
     default_branch: master
@@ -167,6 +178,7 @@ repositories:
         - maintainers
     visibility: public
   sync-service:
+    archived: false
     branch_protection:
       master: {}
     collaborators:
@@ -182,6 +194,7 @@ repositories:
         - maintainers
     visibility: public
   testground-github-action:
+    archived: false
     branch_protection:
       master: {}
     default_branch: master
@@ -189,6 +202,7 @@ repositories:
       - ipdx
     visibility: public
   testground:
+    archived: false
     branch_protection:
       master: {}
     collaborators:
@@ -225,6 +239,7 @@ repositories:
       - testing
     visibility: public
   tg-cypress-test:
+    archived: false
     branch_protection:
       master: {}
     collaborators:
