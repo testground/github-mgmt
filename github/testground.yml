@@ -103,8 +103,6 @@ repositories:
       themselves with the Testground tool
     visibility: public
   pl-infra-testground:
-    branch_protection:
-      master: {}
     default_branch: master
     visibility: private
   plan-templates:
