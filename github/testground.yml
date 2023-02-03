@@ -246,6 +246,7 @@ teams:
         - raulk
     privacy: secret
   Alumni:
+    create_default_maintainer: false
     members:
       member:
         - AbominableSnowman730
