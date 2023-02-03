@@ -28,6 +28,8 @@ members:
 repositories:
   docs:
     archived: false
+    branch_protection:
+      master: {}
     default_branch: master
     description: Content for docs.testground.ai
     teams:
@@ -241,6 +243,7 @@ repositories:
   tg-cypress-test:
     archived: false
     branch_protection:
+      main: {}
       master: {}
     collaborators:
       admin:
