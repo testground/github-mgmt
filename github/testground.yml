@@ -85,7 +85,7 @@ repositories:
       - weave
     visibility: public
   learning-example-tg:
-    archived: false
+    archived: true
     branch_protection:
       master: {}
     default_branch: master
@@ -97,7 +97,7 @@ repositories:
         - maintainers
     visibility: public
   learning-example:
-    archived: false
+    archived: true
     branch_protection:
       master: {}
     default_branch: master
@@ -229,7 +229,7 @@ repositories:
       - testing
     visibility: public
   tg-cypress-test:
-    archived: false
+    archived: true
     branch_protection:
       main: {}
       master: {}
