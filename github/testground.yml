@@ -4,7 +4,6 @@ members:
   admin:
     - andyschwab-admin
     - BigLep
-    - coryschwartz
     - galargh
     - laurentsenta
     - nonsense
@@ -14,6 +13,7 @@ members:
     - Bidon15
     - bokimilinkovic
     - brdji
+    - coryschwartz
     - dektech
     - hacdias
     - Kale98
@@ -241,7 +241,6 @@ teams:
     description: testground admins
     members:
       maintainer:
-        - coryschwartz
         - nonsense
         - raulk
     privacy: secret
@@ -288,20 +287,17 @@ teams:
       maintainer:
         - galargh
         - laurentsenta
-        - tinytb
     parent_team_id: w3dt-stewards
     privacy: closed
   maintainers:
     description: Testground maintainers
     members:
       maintainer:
-        - coryschwartz
         - nonsense
         - raulk
       member:
         - mxinden
         - p-shahi
-        - tinytb
     privacy: closed
   w3dt-stewards:
     create_default_maintainer: false
@@ -312,5 +308,4 @@ teams:
         - laurentsenta
       member:
         - p-shahi
-        - tinytb
     privacy: closed
