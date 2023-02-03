@@ -28,6 +28,8 @@ members:
 repositories:
   docs:
     archived: false
+    branch_protection:
+      master: {}
     default_branch: master
     description: Content for docs.testground.ai
     teams:
@@ -229,11 +231,20 @@ repositories:
   tg-cypress-test:
     archived: false
     branch_protection:
+      main: {}
       master: {}
     default_branch: main
     description: "Project where we attempt to connect cypress and Testground. "
     visibility: public
 teams:
+  admins:
+    description: testground admins
+    members:
+      maintainer:
+        - coryschwartz
+        - nonsense
+        - raulk
+    privacy: secret
   Alumni:
     members:
       member:
@@ -247,14 +258,6 @@ teams:
         - StefanGajic
         - StefanMiletich
     privacy: closed
-  admins:
-    description: testground admins
-    members:
-      maintainer:
-        - coryschwartz
-        - nonsense
-        - raulk
-    privacy: secret
   celestia:
     create_default_maintainer: false
     description: https://github.com/celestiaorg
