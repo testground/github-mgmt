@@ -28,6 +28,8 @@ members:
 repositories:
   docs:
     archived: false
+    branch_protection:
+      master: {}
     default_branch: master
     description: Content for docs.testground.ai
     teams:
@@ -35,6 +37,8 @@ repositories:
         - admins
       maintain:
         - maintainers
+      push:
+        - celestia
     visibility: public
   github-mgmt:
     # WARN: push+ access here should be treated exactly as cautiosly as org admin role
@@ -64,9 +68,6 @@ repositories:
     archived: false
     branch_protection:
       master: {}
-    collaborators:
-      push:
-        - Stebalien
     default_branch: master
     description: Testground infrastructure - playbooks and scripts for setting up a
       Kubernetes cluster for Testground
@@ -87,25 +88,26 @@ repositories:
     archived: false
     branch_protection:
       master: {}
-    collaborators:
-      admin:
-        - brdji
-      push:
-        - bokimilinkovic
-        - StefanGajic
     default_branch: master
     description: Testground project with test plans and examples for the learning project
+    teams:
+      admin:
+        - admins
+      maintain:
+        - maintainers
     visibility: public
   learning-example:
     archived: false
     branch_protection:
       master: {}
-    collaborators:
-      admin:
-        - brdji
     default_branch: master
     description: An example project intended to help newcomers familiarize
       themselves with the Testground tool
+    teams:
+      admin:
+        - admins
+      maintain:
+        - maintainers
     visibility: public
   pl-infra-testground:
     archived: false
@@ -115,9 +117,6 @@ repositories:
     archived: false
     branch_protection:
       master: {}
-    collaborators:
-      admin:
-        - coryschwartz
     default_branch: master
     teams:
       admin:
@@ -126,7 +125,7 @@ repositories:
         - maintainers
     visibility: public
   pm:
-    archived: false
+    archived: true
     branch_protection:
       master: {}
     default_branch: master
@@ -141,9 +140,6 @@ repositories:
     archived: false
     branch_protection:
       master: {}
-    collaborators:
-      push:
-        - Stebalien
     default_branch: master
     description: "Testground: SDK for developing test plans in Go"
     teams:
@@ -151,20 +147,21 @@ repositories:
         - admins
       maintain:
         - maintainers
+      push:
+        - celestia
     visibility: public
   sdk-js:
     archived: false
     branch_protection:
       master: {}
-    collaborators:
-      admin:
-        - hacdias
     default_branch: master
     teams:
       admin:
         - admins
       maintain:
         - maintainers
+      push:
+        - celestia
     visibility: public
   sdk-rust:
     archived: false
@@ -176,14 +173,14 @@ repositories:
         - admins
       maintain:
         - maintainers
+      push:
+        - celestia
     visibility: public
   sync-service:
     archived: false
     branch_protection:
       master: {}
     collaborators:
-      admin:
-        - hacdias
       pull:
         - testgroundbot
     default_branch: master
@@ -192,12 +189,19 @@ repositories:
         - admins
       maintain:
         - maintainers
+      push:
+        - celestia
     visibility: public
   testground-github-action:
     archived: false
     branch_protection:
       master: {}
     default_branch: master
+    teams:
+      admin:
+        - admins
+      maintain:
+        - maintainers
     topics:
       - ipdx
     visibility: public
@@ -206,22 +210,8 @@ repositories:
     branch_protection:
       master: {}
     collaborators:
-      admin:
-        - coryschwartz
-        - raulk
       pull:
         - testgroundbot
-      push:
-        - achingbrain
-        - aschmahmann
-        - daviddias
-        - dirkmc
-        - gmasgras
-        - jacobheun
-        - lanzafame
-        - petar
-        - Stebalien
-        - vyzo
     default_branch: master
     description: 🧪 A platform for testing, benchmarking, and simulating distributed
       and p2p systems at scale.
@@ -230,7 +220,7 @@ repositories:
         - admins
       maintain:
         - maintainers
-      triage:
+      push:
         - celestia
     topics:
       - continuous-integration
@@ -241,10 +231,8 @@ repositories:
   tg-cypress-test:
     archived: false
     branch_protection:
+      main: {}
       master: {}
-    collaborators:
-      admin:
-        - brdji
     default_branch: main
     description: "Project where we attempt to connect cypress and Testground. "
     visibility: public
@@ -257,6 +245,19 @@ teams:
         - nonsense
         - raulk
     privacy: secret
+  Alumni:
+    members:
+      member:
+        - AbominableSnowman730
+        - bokimilinkovic
+        - brdji
+        - dektech
+        - Kale98
+        - KatarinaKeti
+        - LudiSistemas
+        - StefanGajic
+        - StefanMiletich
+    privacy: closed
   celestia:
     create_default_maintainer: false
     description: https://github.com/celestiaorg
