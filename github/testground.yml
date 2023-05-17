@@ -27,11 +27,22 @@ members:
     - tinytb
 repositories:
   docs:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     branch_protection:
-      master: {}
+      master:
+        blocks_creations: false
+        lock_branch: false
     default_branch: master
     description: Content for docs.testground.ai
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - admins
@@ -42,9 +53,13 @@ repositories:
     visibility: public
   github-mgmt:
     # WARN: push+ access here should be treated exactly as cautiosly as org admin role
+    advanced_security: false
+    allow_update_branch: true
     archived: false
     branch_protection:
-      master: {}
+      master:
+        blocks_creations: false
+        lock_branch: false
     default_branch: master
     files:
       CODEOWNERS:
@@ -55,6 +70,13 @@ repositories:
           # The github-mgmt stewards team is responsible for triaging/reviewing configuration change requests
           # The ipdx team is added here temporarily to witness use patterns in github-mgmt
           /github/testground.yml @testground/github-mgmt-stewards @testground/ipdx
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       # ATTN: do not add teams with push+ access, use github-mgmt stewards team membership instead
       maintain:
@@ -65,12 +87,23 @@ repositories:
       - ipdx
     visibility: public
   infra:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     branch_protection:
-      master: {}
+      master:
+        blocks_creations: false
+        lock_branch: false
     default_branch: master
     description: Testground infrastructure - playbooks and scripts for setting up a
       Kubernetes cluster for Testground
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - admins
@@ -85,11 +118,18 @@ repositories:
       - weave
     visibility: public
   learning-example-tg:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     branch_protection:
-      master: {}
+      master:
+        blocks_creations: false
+        lock_branch: false
     default_branch: master
     description: Testground project with test plans and examples for the learning project
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: true
     teams:
       admin:
         - admins
@@ -97,12 +137,19 @@ repositories:
         - maintainers
     visibility: public
   learning-example:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     branch_protection:
-      master: {}
+      master:
+        blocks_creations: false
+        lock_branch: false
     default_branch: master
     description: An example project intended to help newcomers familiarize
       themselves with the Testground tool
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: true
     teams:
       admin:
         - admins
@@ -110,14 +157,34 @@ repositories:
         - maintainers
     visibility: public
   pl-infra-testground:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     default_branch: master
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: private
   plan-templates:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     branch_protection:
-      master: {}
+      master:
+        blocks_creations: false
+        lock_branch: false
     default_branch: master
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - admins
@@ -125,11 +192,18 @@ repositories:
         - maintainers
     visibility: public
   pm:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     branch_protection:
-      master: {}
+      master:
+        blocks_creations: false
+        lock_branch: false
     default_branch: master
     description: Project management of Testground
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: true
     teams:
       admin:
         - admins
@@ -137,11 +211,22 @@ repositories:
         - maintainers
     visibility: public
   sdk-go:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     branch_protection:
-      master: {}
+      master:
+        blocks_creations: false
+        lock_branch: false
     default_branch: master
     description: "Testground: SDK for developing test plans in Go"
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - admins
@@ -151,10 +236,21 @@ repositories:
         - celestia
     visibility: public
   sdk-js:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     branch_protection:
-      master: {}
+      master:
+        blocks_creations: false
+        lock_branch: false
     default_branch: master
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - admins
@@ -164,10 +260,21 @@ repositories:
         - celestia
     visibility: public
   sdk-rust:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     branch_protection:
-      master: {}
+      master:
+        blocks_creations: false
+        lock_branch: false
     default_branch: master
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - admins
@@ -177,13 +284,24 @@ repositories:
         - celestia
     visibility: public
   sync-service:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     branch_protection:
-      master: {}
+      master:
+        blocks_creations: false
+        lock_branch: false
     collaborators:
       pull:
         - testgroundbot
     default_branch: master
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - admins
@@ -193,10 +311,21 @@ repositories:
         - celestia
     visibility: public
   testground-github-action:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     branch_protection:
-      master: {}
+      master:
+        blocks_creations: false
+        lock_branch: false
     default_branch: master
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - admins
@@ -206,15 +335,26 @@ repositories:
       - ipdx
     visibility: public
   testground:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     branch_protection:
-      master: {}
+      master:
+        blocks_creations: false
+        lock_branch: false
     collaborators:
       pull:
         - testgroundbot
     default_branch: master
     description: 🧪 A platform for testing, benchmarking, and simulating distributed
       and p2p systems at scale.
+    has_discussions: true
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - admins
@@ -229,12 +369,21 @@ repositories:
       - testing
     visibility: public
   tg-cypress-test:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     branch_protection:
-      main: {}
-      master: {}
+      main:
+        blocks_creations: false
+        lock_branch: false
+      master:
+        blocks_creations: false
+        lock_branch: false
     default_branch: main
     description: "Project where we attempt to connect cypress and Testground. "
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: true
     visibility: public
 teams:
   admins:
