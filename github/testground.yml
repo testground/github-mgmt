@@ -37,6 +37,34 @@ repositories:
     default_branch: master
     description: Content for docs.testground.ai
     has_discussions: false
+    labels:
+      bug:
+        color: d73a4a
+        description: Something isn't working
+      documentation:
+        color: 0075ca
+        description: Improvements or additions to documentation
+      duplicate:
+        color: cfd3d7
+        description: This issue or pull request already exists
+      enhancement:
+        color: a2eeef
+        description: New feature or request
+      good first issue:
+        color: 7057ff
+        description: Good for newcomers
+      help wanted:
+        color: "008672"
+        description: Extra attention is needed
+      invalid:
+        color: e4e669
+        description: This doesn't seem right
+      question:
+        color: d876e3
+        description: Further information is requested
+      wontfix:
+        color: ffffff
+        description: This will not be worked on
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
@@ -71,6 +99,37 @@ repositories:
           # The ipdx team is added here temporarily to witness use patterns in github-mgmt
           /github/testground.yml @testground/github-mgmt-stewards @testground/ipdx
     has_discussions: false
+    labels:
+      bug:
+        color: d73a4a
+        description: Something isn't working
+      dependencies:
+        color: 0366d6
+        description: Pull requests that update a dependency file
+      documentation:
+        color: 0075ca
+        description: Improvements or additions to documentation
+      duplicate:
+        color: cfd3d7
+        description: This issue or pull request already exists
+      enhancement:
+        color: a2eeef
+        description: New feature or request
+      good first issue:
+        color: 7057ff
+        description: Good for newcomers
+      help wanted:
+        color: "008672"
+        description: Extra attention is needed
+      invalid:
+        color: e4e669
+        description: This doesn't seem right
+      question:
+        color: d876e3
+        description: Further information is requested
+      wontfix:
+        color: ffffff
+        description: This will not be worked on
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
@@ -98,6 +157,49 @@ repositories:
     description: Testground infrastructure - playbooks and scripts for setting up a
       Kubernetes cluster for Testground
     has_discussions: false
+    labels:
+      approved:
+        color: fbca04
+        description: Ready for Merge
+      bug:
+        color: d73a4a
+        description: Something isn't working
+      changes requested:
+        color: fbca04
+        description: Changes requested after review
+      Chore:
+        color: "008672"
+        description: Routine mtc or config change
+      discarded/wont fix:
+        color: cfd3d7
+        description: This will not be worked on
+      documentation:
+        color: 0075ca
+        description: Improvements or additions to documentation
+      Done:
+        color: f7c4aa
+        description: Completed/Fixed
+      duplicate:
+        color: cfd3d7
+        description: This issue or pull request already exists
+      enhancement:
+        color: a2eeef
+        description: New feature or request
+      good first issue:
+        color: 7057ff
+        description: Good for newcomers
+      help wanted:
+        color: "008672"
+        description: Extra attention is needed
+      invalid:
+        color: e4e669
+        description: This doesn't seem right
+      question:
+        color: d876e3
+        description: Further information is requested
+      waiting for review:
+        color: fbca04
+        description: Review Requested
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
@@ -128,6 +230,34 @@ repositories:
     default_branch: master
     description: Testground project with test plans and examples for the learning project
     has_discussions: false
+    labels:
+      bug:
+        color: d73a4a
+        description: Something isn't working
+      documentation:
+        color: 0075ca
+        description: Improvements or additions to documentation
+      duplicate:
+        color: cfd3d7
+        description: This issue or pull request already exists
+      enhancement:
+        color: a2eeef
+        description: New feature or request
+      good first issue:
+        color: 7057ff
+        description: Good for newcomers
+      help wanted:
+        color: "008672"
+        description: Extra attention is needed
+      invalid:
+        color: e4e669
+        description: This doesn't seem right
+      question:
+        color: d876e3
+        description: Further information is requested
+      wontfix:
+        color: ffffff
+        description: This will not be worked on
     secret_scanning_push_protection: false
     secret_scanning: true
     teams:
@@ -148,6 +278,34 @@ repositories:
     description: An example project intended to help newcomers familiarize
       themselves with the Testground tool
     has_discussions: false
+    labels:
+      bug:
+        color: d73a4a
+        description: Something isn't working
+      documentation:
+        color: 0075ca
+        description: Improvements or additions to documentation
+      duplicate:
+        color: cfd3d7
+        description: This issue or pull request already exists
+      enhancement:
+        color: a2eeef
+        description: New feature or request
+      good first issue:
+        color: 7057ff
+        description: Good for newcomers
+      help wanted:
+        color: "008672"
+        description: Extra attention is needed
+      invalid:
+        color: e4e669
+        description: This doesn't seem right
+      question:
+        color: d876e3
+        description: Further information is requested
+      wontfix:
+        color: ffffff
+        description: This will not be worked on
     secret_scanning_push_protection: false
     secret_scanning: true
     teams:
@@ -162,6 +320,34 @@ repositories:
     archived: false
     default_branch: master
     has_discussions: false
+    labels:
+      bug:
+        color: d73a4a
+        description: Something isn't working
+      documentation:
+        color: 0075ca
+        description: Improvements or additions to documentation
+      duplicate:
+        color: cfd3d7
+        description: This issue or pull request already exists
+      enhancement:
+        color: a2eeef
+        description: New feature or request
+      good first issue:
+        color: 7057ff
+        description: Good for newcomers
+      help wanted:
+        color: "008672"
+        description: Extra attention is needed
+      invalid:
+        color: e4e669
+        description: This doesn't seem right
+      question:
+        color: d876e3
+        description: Further information is requested
+      wontfix:
+        color: ffffff
+        description: This will not be worked on
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
@@ -179,6 +365,34 @@ repositories:
         lock_branch: false
     default_branch: master
     has_discussions: false
+    labels:
+      bug:
+        color: d73a4a
+        description: Something isn't working
+      documentation:
+        color: 0075ca
+        description: Improvements or additions to documentation
+      duplicate:
+        color: cfd3d7
+        description: This issue or pull request already exists
+      enhancement:
+        color: a2eeef
+        description: New feature or request
+      good first issue:
+        color: 7057ff
+        description: Good for newcomers
+      help wanted:
+        color: "008672"
+        description: Extra attention is needed
+      invalid:
+        color: e4e669
+        description: This doesn't seem right
+      question:
+        color: d876e3
+        description: Further information is requested
+      wontfix:
+        color: ffffff
+        description: This will not be worked on
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
@@ -202,6 +416,37 @@ repositories:
     default_branch: master
     description: Project management of Testground
     has_discussions: false
+    labels:
+      bug:
+        color: d73a4a
+        description: Something isn't working
+      documentation:
+        color: 0075ca
+        description: Improvements or additions to documentation
+      Done:
+        color: d39e32
+        description: completed/fixed
+      duplicate:
+        color: cfd3d7
+        description: This issue or pull request already exists
+      enhancement:
+        color: a2eeef
+        description: New feature or request
+      good first issue:
+        color: 7057ff
+        description: Good for newcomers
+      help wanted:
+        color: "008672"
+        description: Extra attention is needed
+      invalid:
+        color: e4e669
+        description: This doesn't seem right
+      question:
+        color: d876e3
+        description: Further information is requested
+      wontfix:
+        color: ffffff
+        description: This will not be worked on
     secret_scanning_push_protection: false
     secret_scanning: true
     teams:
@@ -221,6 +466,51 @@ repositories:
     default_branch: master
     description: "Testground: SDK for developing test plans in Go"
     has_discussions: false
+    labels:
+      approved:
+        color: e8bb7d
+        description: Waiting to Merge
+      bug:
+        color: d73a4a
+        description: Something isn't working
+      changes requested:
+        color: e8bb7d
+        description: Review completed, changes requested
+      dependencies:
+        color: 0366d6
+        description: Pull requests that update a dependency file
+      documentation:
+        color: 0075ca
+        description: Improvements or additions to documentation
+      done:
+        color: e8bb7d
+        description: Completed/Fixed
+      duplicate:
+        color: cfd3d7
+        description: This issue or pull request already exists
+      enhancement:
+        color: a2eeef
+        description: New feature or request
+      good first issue:
+        color: 7057ff
+        description: Good for newcomers
+      help wanted:
+        color: "008672"
+        description: Extra attention is needed
+      hint/needs-docs:
+        color: 9dd3ea
+      invalid:
+        color: e4e669
+        description: This doesn't seem right
+      question:
+        color: d876e3
+        description: Further information is requested
+      waiting for review:
+        color: e8bb7d
+        description: Review Requested
+      wontfix:
+        color: 2d4793
+        description: This will not be worked on
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
@@ -245,6 +535,37 @@ repositories:
         lock_branch: false
     default_branch: master
     has_discussions: false
+    labels:
+      bug:
+        color: d73a4a
+        description: Something isn't working
+      dependencies:
+        color: 0366d6
+        description: Pull requests that update a dependency file
+      documentation:
+        color: 0075ca
+        description: Improvements or additions to documentation
+      duplicate:
+        color: cfd3d7
+        description: This issue or pull request already exists
+      enhancement:
+        color: a2eeef
+        description: New feature or request
+      good first issue:
+        color: 7057ff
+        description: Good for newcomers
+      help wanted:
+        color: "008672"
+        description: Extra attention is needed
+      invalid:
+        color: e4e669
+        description: This doesn't seem right
+      question:
+        color: d876e3
+        description: Further information is requested
+      wontfix:
+        color: ffffff
+        description: This will not be worked on
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
@@ -269,6 +590,37 @@ repositories:
         lock_branch: false
     default_branch: master
     has_discussions: false
+    labels:
+      bug:
+        color: d73a4a
+        description: Something isn't working
+      dependencies:
+        color: 0366d6
+        description: Pull requests that update a dependency file
+      documentation:
+        color: 0075ca
+        description: Improvements or additions to documentation
+      duplicate:
+        color: cfd3d7
+        description: This issue or pull request already exists
+      enhancement:
+        color: a2eeef
+        description: New feature or request
+      good first issue:
+        color: 7057ff
+        description: Good for newcomers
+      help wanted:
+        color: "008672"
+        description: Extra attention is needed
+      invalid:
+        color: e4e669
+        description: This doesn't seem right
+      question:
+        color: d876e3
+        description: Further information is requested
+      wontfix:
+        color: ffffff
+        description: This will not be worked on
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
@@ -296,6 +648,34 @@ repositories:
         - testgroundbot
     default_branch: master
     has_discussions: false
+    labels:
+      bug:
+        color: d73a4a
+        description: Something isn't working
+      documentation:
+        color: 0075ca
+        description: Improvements or additions to documentation
+      duplicate:
+        color: cfd3d7
+        description: This issue or pull request already exists
+      enhancement:
+        color: a2eeef
+        description: New feature or request
+      good first issue:
+        color: 7057ff
+        description: Good for newcomers
+      help wanted:
+        color: "008672"
+        description: Extra attention is needed
+      invalid:
+        color: e4e669
+        description: This doesn't seem right
+      question:
+        color: d876e3
+        description: Further information is requested
+      wontfix:
+        color: ffffff
+        description: This will not be worked on
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
@@ -320,6 +700,34 @@ repositories:
         lock_branch: false
     default_branch: master
     has_discussions: false
+    labels:
+      bug:
+        color: d73a4a
+        description: Something isn't working
+      documentation:
+        color: 0075ca
+        description: Improvements or additions to documentation
+      duplicate:
+        color: cfd3d7
+        description: This issue or pull request already exists
+      enhancement:
+        color: a2eeef
+        description: New feature or request
+      good first issue:
+        color: 7057ff
+        description: Good for newcomers
+      help wanted:
+        color: "008672"
+        description: Extra attention is needed
+      invalid:
+        color: e4e669
+        description: This doesn't seem right
+      question:
+        color: d876e3
+        description: Further information is requested
+      wontfix:
+        color: ffffff
+        description: This will not be worked on
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
@@ -349,6 +757,209 @@ repositories:
     description: 🧪 A platform for testing, benchmarking, and simulating distributed
       and p2p systems at scale.
     has_discussions: true
+    labels:
+      area/builders:
+        color: 0bb1ed
+        description: "Area: Builders"
+      area/ci:
+        color: 0bb1ed
+        description: "Area: Continuous Integration"
+      area/core:
+        color: 0bb1ed
+        description: "Area: Core"
+      area/docs:
+        color: 0bb1ed
+        description: "Area: Documentation"
+      area/infra:
+        color: 0bb1ed
+        description: "Area: Infrastructure"
+      area/observability:
+        color: 0bb1ed
+        description: "Area: Observability"
+      area/runners:
+        color: 0bb1ed
+        description: "Area: Runners"
+      area/sdk:
+        color: 0bb1ed
+        description: "Area: SDK"
+      area/sidecar:
+        color: 0bb1ed
+        description: "Area: Sidecar"
+      area/specs:
+        color: 0bb1ed
+        description: "Area: Specs"
+      area/sync-service:
+        color: 0bb1ed
+        description: "Area: Sync Service"
+      area/testing:
+        color: 0bb1ed
+        description: "Area: Testing"
+      area/ux-cli:
+        color: 0bb1ed
+        description: "Area: UX/CLI"
+      dependencies:
+        color: 0366d6
+        description: Pull requests that update a dependency file
+      effort/day:
+        color: 64d5ca
+        description: "Effort: One Day."
+      effort/days:
+        color: 4dc0b5
+        description: "Effort: Multiple Days."
+      effort/hours:
+        color: a0f0ed
+        description: "Effort: One or Multiple Hours."
+      effort/week:
+        color: 38a89d
+        description: "Effort: One Week."
+      effort/weeks:
+        color: 20504f
+        description: "Effort: Multiple Weeks."
+      exp/beginner:
+        color: b2b7ff
+        description: Can be confidently tackled by newcomers, who are widely unfamiliar
+          with testground.
+      exp/expert:
+        color: 5661b3
+        description: Suggests that having worked on the specific component affected by
+          this issue is important.
+      exp/intermediate:
+        color: 6574cd
+        description: Prior experience in having developed testground modules is likely
+          helpful.
+      exp/novice:
+        color: 7886d7
+        description: A prexisting testground user should be able to pick this up.
+      exp/wizard:
+        color: 2f365f
+        description: Requires extensive knowledge of the history, implications,
+          ramifications of the issue.
+      go:
+        color: 16e2e2
+        description: Pull requests that update Go code
+      good first issue:
+        color: 7057ff
+        description: Good for newcomers
+      help wanted:
+        color: "008672"
+        description: Extra attention is needed
+      hint/needs-author-input:
+        color: 0623cc
+        description: "Hint: Needs Author Input"
+      hint/needs-community-input:
+        color: 0623cc
+        description: "Hint: Needs Community Input"
+      hint/needs-contributor:
+        color: 0623cc
+        description: "Hint: Needs Contributor"
+      hint/needs-docs:
+        color: 0623cc
+        description: "Hint: Needs Docs"
+      hint/needs-team-input:
+        color: 0623cc
+        description: "Hint: Needs Team Input"
+      hint/needs-triage:
+        color: 0623cc
+        description: "Hint: Needs Triage"
+      impact/api-breakage:
+        color: f1f5f8
+        description: "Impact: API Breakage"
+      impact/dx:
+        color: f1f5f8
+        description: "Impact: Developer Experience"
+      impact/quality:
+        color: f1f5f8
+        description: "Impact: Quality"
+      impact/regression:
+        color: f1f5f8
+        description: "Impact: Regression"
+      impact/test-flakiness:
+        color: f1f5f8
+        description: "Impact: Test Flakiness"
+      javascript:
+        color: "168700"
+        description: Pull requests that update Javascript code
+      kind/bug:
+        color: c92712
+        description: "Kind: Bug"
+      kind/chore:
+        color: fcf0b5
+        description: "Kind: Chore"
+      kind/discussion:
+        color: fcf0b5
+        description: "Kind: Discussion"
+      kind/epic:
+        color: 3e4b9e
+        description: "Kind: EPIC"
+      kind/feature:
+        color: fcf0b5
+        description: "Kind: Feature"
+      kind/improvement:
+        color: fcf0b5
+        description: "Kind: Improvement"
+      kind/investigation:
+        color: fcf0b5
+        description: "Kind: Investigation"
+      kind/question:
+        color: fcf0b5
+        description: "Kind: Question"
+      kind/roadmap:
+        color: fcf0b5
+        description: "Kind: Roadmap"
+      kind/test:
+        color: fcf0b5
+        description: "Kind: Test"
+      kind/tracking-issue:
+        color: fcf0b5
+        description: "Kind: Tracking Issue"
+      P0:
+        color: dd362a
+        description: "P0: Critical. This is a blocker. Drop everything else."
+      P1:
+        color: ce8048
+        description: "P1: Must be fixed."
+      P2:
+        color: dbd81a
+        description: "P2: Should be fixed."
+      P3:
+        color: 9fea8f
+        description: "P3: Might get fixed."
+      rust:
+        color: "000000"
+        description: Pull requests that update Rust code
+      sdk/go:
+        color: 0bb1ed
+        description: "SDK: Go"
+      sdk/js:
+        color: 0bb1ed
+        description: "SDK: Javascript"
+      sdk/other:
+        color: 0bb1ed
+        description: "SDK: Others"
+      sdk/rust:
+        color: 0bb1ed
+        description: "SDK: Rust"
+      starmaps:
+        color: 27292c
+        description: https://www.starmaps.app/
+      status/blocked:
+        color: edb3a6
+        description: "Status: Blocked"
+      topic/architecture:
+        color: bf0f73
+        description: "Topic: Architecture"
+      topic/docs:
+        color: bf0f73
+        description: "Topic: Documentation"
+      topic/interoperability:
+        color: bf0f73
+        description: "Topic: Interoperability"
+      topic/multi-language:
+        color: bf0f73
+        description: "Topic: Multi-language"
+      topic/specs:
+        color: bf0f73
+        description: "Topic: Specs"
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
@@ -382,6 +993,34 @@ repositories:
     default_branch: main
     description: "Project where we attempt to connect cypress and Testground. "
     has_discussions: false
+    labels:
+      bug:
+        color: d73a4a
+        description: Something isn't working
+      documentation:
+        color: 0075ca
+        description: Improvements or additions to documentation
+      duplicate:
+        color: cfd3d7
+        description: This issue or pull request already exists
+      enhancement:
+        color: a2eeef
+        description: New feature or request
+      good first issue:
+        color: 7057ff
+        description: Good for newcomers
+      help wanted:
+        color: "008672"
+        description: Extra attention is needed
+      invalid:
+        color: e4e669
+        description: This doesn't seem right
+      question:
+        color: d876e3
+        description: Further information is requested
+      wontfix:
+        color: ffffff
+        description: This will not be worked on
     secret_scanning_push_protection: false
     secret_scanning: true
     visibility: public
