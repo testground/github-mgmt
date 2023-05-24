@@ -15,12 +15,14 @@ members:
     - brdji
     - coryschwartz
     - dektech
+    - jrmanes
     - hacdias
     - Kale98
     - KatarinaKeti
     - LudiSistemas
     - mxinden
     - p-shahi
+    - smuu
     - StefanGajic
     - StefanMiletich
     - sysrex
@@ -1068,6 +1070,8 @@ teams:
     members:
       member:
         - Bidon15
+        - jrmanes
+        - smuu
         - sysrex
     privacy: closed
   github-mgmt stewards:
