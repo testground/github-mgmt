@@ -193,12 +193,21 @@ repositories:
       help wanted:
         color: "008672"
         description: Extra attention is needed
+      iac:
+        color: "5319E7"
+        description: Infrastructure as Code
       invalid:
         color: e4e669
         description: This doesn't seem right
+      kubernetes:
+        color: 0052CC
+        description: Kubernetes stuffs
       question:
         color: d876e3
         description: Further information is requested
+      refactor:
+        color: 0E8A16
+        description: Refactoring
       waiting for review:
         color: fbca04
         description: Review Requested
