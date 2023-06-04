@@ -24,7 +24,6 @@ members:
     - p-shahi
     - smuu
     - StefanGajic
-    - StefanMiletich
     - sysrex
     - tinytb
 repositories:
@@ -666,9 +665,6 @@ repositories:
       master:
         blocks_creations: false
         lock_branch: false
-    collaborators:
-      pull:
-        - testgroundbot
     default_branch: master
     has_discussions: false
     labels:
@@ -773,9 +769,6 @@ repositories:
       master:
         blocks_creations: false
         lock_branch: false
-    collaborators:
-      pull:
-        - testgroundbot
     default_branch: master
     description: 🧪 A platform for testing, benchmarking, and simulating distributed
       and p2p systems at scale.
@@ -1071,7 +1064,6 @@ teams:
         - KatarinaKeti
         - LudiSistemas
         - StefanGajic
-        - StefanMiletich
     privacy: closed
   celestia:
     create_default_maintainer: false
