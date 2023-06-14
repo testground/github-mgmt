@@ -611,6 +611,9 @@ repositories:
         blocks_creations: false
         lock_branch: false
     default_branch: master
+    files:
+      .github/dependabot.yml:
+        content: .github/dependabot.yml
     has_discussions: false
     labels:
       bug:
@@ -666,6 +669,9 @@ repositories:
         blocks_creations: false
         lock_branch: false
     default_branch: master
+    files:
+      .github/dependabot.yml:
+        content: .github/dependabot.yml
     has_discussions: false
     labels:
       bug:
@@ -718,6 +724,9 @@ repositories:
         blocks_creations: false
         lock_branch: false
     default_branch: master
+    files:
+      .github/dependabot.yml:
+        content: .github/dependabot.yml
     has_discussions: false
     labels:
       bug:
