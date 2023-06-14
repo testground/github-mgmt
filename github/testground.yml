@@ -613,7 +613,13 @@ repositories:
     default_branch: master
     files:
       .github/dependabot.yml:
-        content: .github/dependabot.yml
+        content: |
+          version: 2
+          updates:
+            - package-ecosystem: "cargo"
+              directory: "/"
+              schedule:
+                interval: "daily"
     has_discussions: false
     labels:
       bug:
@@ -677,6 +683,9 @@ repositories:
       bug:
         color: d73a4a
         description: Something isn't working
+      dependencies:
+        color: 0366d6
+        description: Pull requests that update a dependency file
       documentation:
         color: 0075ca
         description: Improvements or additions to documentation
@@ -732,6 +741,9 @@ repositories:
       bug:
         color: d73a4a
         description: Something isn't working
+      dependencies:
+        color: 0366d6
+        description: Pull requests that update a dependency file
       documentation:
         color: 0075ca
         description: Improvements or additions to documentation
