@@ -656,6 +656,9 @@ repositories:
       question:
         color: d876e3
         description: Further information is requested
+      rust:
+        color: "000000"
+        description: Pull requests that update Rust code
       wontfix:
         color: ffffff
         description: This will not be worked on
