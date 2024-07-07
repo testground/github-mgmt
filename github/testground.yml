@@ -16,7 +16,6 @@ members:
     - coryschwartz
     - dektech
     - hacdias
-    - jrmanes
     - Kale98
     - KatarinaKeti
     - LudiSistemas
@@ -26,6 +25,7 @@ members:
     - StefanGajic
     - sysrex
     - tinytb
+    - tty47
 repositories:
   docs:
     advanced_security: false
@@ -1102,9 +1102,9 @@ teams:
     members:
       member:
         - Bidon15
-        - jrmanes
         - smuu
         - sysrex
+        - tty47
     privacy: closed
   github-mgmt stewards:
     # NOTE: created to capture users with push+ access to github-mgmt repository
